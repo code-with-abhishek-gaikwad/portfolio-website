@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhi's Portfolio</title>
+    <link rel="stylesheet" href="portfolioDemo.css">
+    <script defer src="portfolio.js"></script>
+</head>
+<body>
+
+    <!-- Sidebar / Navigation -->
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#intro">My Intro</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        
+        <!-- Home Section -->
+        <section id="home" class="infoContainer">
+            <div class="devinfo">
+                <div class="hello">Hi, I am</div>
+                <div class="name"><span id="typing-effect"></span></div>
+                <div class="about">Developer, Entrepreneur</div>
+                <div class="moreabout">I love coding, coffee, and traveling. Based in Maharashtra, often visiting Pune.</div>
+                <div class="button">
+                    <a href="CV.pdf" target="_blank"><button>Download CV</button></a>
+                    <a href="#contact"><button>Contact Me</button></a>
+                </div>
+            </div>
+            <div class="devpic">
+                <img src="portfolio.png" alt="Abhi Gaikwad">
+            </div>
+        </section>
+
+        <!-- About / Intro Section -->
+        <section id="intro">
+            <h2>About Me</h2>
+            <p>I'm a passionate developer with various technologies. I specialize in web development, problem-solving, and creating amazing digital experiences.
+                Passionate and detail-oriented Web Developer with a strong foundation in front-end and back-end technologies. Skilled in creating dynamic, responsive websites and web applications using modern frameworks and best practices. Dedicated to writing clean, efficient code and continuously learning new technologies to enhance user experiences. Enthusiastic about solving complex problems and bringing innovative digital solutions to life
+            </p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>App Development</li>
+                <li>SEO Optimization</li>
+                <li>Technical Consulting</li>
+            </ul>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog">
+            <h2>My Blog</h2>
+            <div class="blogitem">
+                <h3>Learn JavaScript the Fun Way!</h3>
+                <p>JavaScript is an essential language for modern web development...</p>
+                <button class="btn btn-sm">Read More</button>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contactform">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="clientname">Name</label>
+                <input type="text" id="clientname" class="form-control" placeholder="Your Name">
+
+                <label for="clientemail">Email</label>
+                <input type="email" id="clientemail" class="form-control" placeholder="Your Email">
+
+                <label for="clientmessage">Message</label>
+                <textarea id="clientmessage" class="form-control" placeholder="Your Message"></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+
+    </div>
+
+</body>
+</html>
